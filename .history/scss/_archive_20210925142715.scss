@@ -1,0 +1,27 @@
+.article {
+  width: 100%;
+}
+
+.carrd-items {
+  
+}
+
+.card-item {
+  
+&imgwrap
+  &-img {
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+  }
+  &-h2 {
+    font-size: 1.6rem;
+    color: red;
+  }
+  &-desc {
+  }
+  &-tag {
+  }
+  &-date {
+  }
+}

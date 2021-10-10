@@ -1,0 +1,32 @@
+.article {
+  width: 100%;
+}
+
+.carrd-items {
+}
+
+.card-item {
+
+  &-imgwrap {
+    overflow: hidden;
+
+    &-img {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+    }
+    &-h2 {
+      font-size: 1.6rem;
+      color: red;
+    }
+    &-desc {
+    }
+    &-tag {
+    }
+    &-date {
+    }
+  }
+}

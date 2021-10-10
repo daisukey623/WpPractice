@@ -1,0 +1,30 @@
+.article {
+  width: 100%;
+}
+
+// .carrd-items{
+
+// }
+
+.card-item {
+  position: relative;
+  overflow: hidden;
+
+  &-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+  &-h2 {
+    font-size: 1.6rem;
+    color: ;
+  }
+  &-desc {
+  }
+  &-tag {
+  }
+  &-date {
+  }
+}

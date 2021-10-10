@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo {
+  &-desc {
+    background: linear-gradient(transparent 50%, $yellow 50%);
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+.nav {
+  &-items {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      width: 200px;
+      padding-top: 20px;
+      text-align: center;
+      float: left;
+      font-size: 2rem;
+      button {
+        background-image: linear-gradient(
+          to right bottom,
+          #9bd9d8,
+          #d8eb4a
+        );
+        border-image-slice: 1;
+        border-radius: 25px;
+        font-size: 18px;
+        width: 150px;
+        height: 50px;
+      }
+      span {
+        width: 145px;
+        height: 45px;
+        padding: 12px;
+        border-radius: 25px;
+        background-color: white;
+        &:hover {
+          background-image: linear-gradient(
+            to right bottom,
+            $gradatiomn-start,
+            $gradation-end
+          );
+        }
+      }
+    }
+  }
+}

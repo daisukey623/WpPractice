@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  margin:1rem ;
+}
+.logo{
+  &-desc{
+    background: linear-gradient(transparent 50%, $yellow 50%);
+    font-size: 1.1rem;
+  }
+  img{
+    width: 200px;
+  }
+}
+
+.nav{
+  &-items{
+    overflow: hidden;
+      li{
+        width: 140px;
+        text-align: center;
+        float: left;
+        font-size: 2.0rem;
+      }
+    }
+  }

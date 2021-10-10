@@ -1,0 +1,42 @@
+.article {
+  width: 100%;
+}
+
+.carrd-items {
+}
+
+.card-item {
+  width: 1150px;
+  display: flex;
+  background-color: #F5F5F5;
+  &-imgwrap {
+    
+    &-img {
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+  &-txtwrap{
+    padding: 2.0rem;
+
+  }
+    &-h2 {
+      font-size: 1.8rem;
+      color:#555;
+      padding-: ;
+    }
+    &-desc {
+      font-size: 1.4rem;
+      color: #585858;
+    }
+    &-tag {
+      font-size: 1.2rem;
+      color: #143D7A;
+    }
+    &-date {
+      font-size: 1.2rem;
+      color: #143D7A;
+
+    }
+}

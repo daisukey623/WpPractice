@@ -1,0 +1,27 @@
+.main
+
+.aside {
+  &__ttl{
+
+
+  }
+  &__article {
+    
+  }
+
+  ;
+}
+
+.newpost {
+  display: flex;
+  background-color: red;
+
+  &__img {
+    width: 100px
+  };
+
+  &__ttl {};
+
+  &__date {};
+
+}
