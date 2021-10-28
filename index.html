@@ -12,50 +12,78 @@
     <title>WpPractice</title>
   </head>
   <body>
-    <header>
-      <section>
-        <address>
-          <figure>
-            <img src="/img/icon/location.svg" alt="所在地" /><span
-              >1600 Amphitheatre Parkway, CA 94043</span
-            >
+    <header class="header">
+      <section class="header-top">
+        <div class="header-top__inner">
+          <address class="adress">
+            <figure class="adress__inner">
+              <img
+                src="/img/icon/location.svg"
+                alt="所在地"
+                class="adress__img"
+              /><span class="adress__txt"
+                >1600 Amphitheatre Parkway, CA 94043</span
+              >
+            </figure>
+            <figure class="adress__inner">
+              <img
+                src="img/icon/mail.svg"
+                alt="メールアドレス"
+                class="adress__img"
+              /><span class="adress__txt">vctung@outlook.com</span>
+            </figure>
+          </address>
+          <figure class="sns-items">
+            <img
+              src="/img/icon/Facebook.svg"
+              alt="Facebook"
+              class="sns-items__img"
+            />
+            <img
+              src="/img/icon/Pinterest.svg"
+              alt="Pinterest"
+              class="sns-items__img"
+            />
+            <img
+              src="/img/icon/Twitter.svg"
+              alt="Twitter"
+              class="sns-items__img"
+            />
+            <img
+              src="/img/icon/Instagram.svg"
+              alt="Instagram"
+              class="sns-items__img"
+            />
           </figure>
-          <figure>
-            <img src="img/icon/mail.svg" alt="メールアドレス" /><span
-              >vctung@outlook.com</span
-            >
-          </figure>
-        </address>
-        <figure>
-          <img src="/img/icon/Facebook.svg" alt="Facebook" />
-          <img src="/img/icon/Pinterest.svg" alt="Pinterest" />
-          <img src="/img/icon/Twitter.svg" alt="Twitter" />
-          <img src="/img/icon/Instagram.svg" alt="Instagram" />
-        </figure>
-      </section>
-      <section>
-        <div>
-          <img src="/img/logo.svg" alt="FOR EDUCATION" />
-          <h1>FOR EDUCATION</h1>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <a href=""><span>Home</span></a>
-            </li>
-            <li>
-              <a href=""><span>About</span></a>
-            </li>
-            <li>
-              <a href=""><span>Courses</span></a>
-            </li>
-            <li>
-              <a href=""><span>Contact</span></a>
-            </li>
-          </ul>
-          <div><a>Sign up</a></div>
-          <img src="/img/icon/search.svg" alt="サイト内検索" />
-        </nav>
+      </section>
+      <section class="header-bottom">
+        <div class="header-bottom__inner">
+          <div class="logo">
+            <img src="/img/logo.svg" alt="FOR EDUCATION" class="logo__img" />
+            <h1 class="logo__h1">FOR EDUCATION</h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav__inner">
+              <li class="nav__item">
+                <a href=""><span class="nav-items__link">Home</span></a>
+              </li>
+              <li class="nav__item">
+                <a href=""><span>About</span></a>
+              </li>
+              <li class="nav__item">
+                <a href=""><span>Courses</span></a>
+              </li>
+              <li class="nav__item">
+                <a href=""><span>Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+          <a class="btn is-primary">Sign up</a>
+          <div class="search">
+            <img src="/img/icon/search.svg" alt="サイト内検索" />
+          </div>
+        </div>
       </section>
     </header>
     <section>
