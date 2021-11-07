@@ -1,0 +1,35 @@
+.article-list {
+  width: 370px;
+  margin-bottom: 20px;
+  &__inner {
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    display: inline-block;
+    position: relative;
+  }
+
+  &__img {
+    text-align: center;
+  }
+
+  &__post-img {
+    margin-bottom: 15px;
+  }
+  &__category-img {
+    position: absolute;
+    top: 145px;
+    left: 20px;
+  }
+  &__content {
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  &__h3 {
+    font: bold 2rem inter;
+    margin-bottom: 10px;
+  }
+  &__category-name {
+    font: normal 1.4rem inter;
+    color: #757575;
+  }
+}

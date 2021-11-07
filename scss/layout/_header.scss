@@ -1,3 +1,7 @@
+.header {
+  position: relative;
+}
+
 .header-top {
   background-color: #fdc800;
 
@@ -9,7 +13,7 @@
     align-items: center;
   }
 }
-.adress {
+.address {
   flex: 1;
   display: flex;
 
@@ -73,26 +77,6 @@
   }
 }
 
-.btn {
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  font-size: 1.6rem;
-  padding: 1rem 4rem;
-  cursor: pointer;
-  transition: 0.2s;
-  box-sizing: border-box;
-  border: solid 2px #fdc800;
-  border-radius: 4px;
-}
-
-.is-primary {
-  background-color: #fdc800;
-}
-
-.is-primary:hover {
-  background-color: #f0f4f9;
-}
 .search {
   background-color: #ffffff;
   border-radius: 4px;
