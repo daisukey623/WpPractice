@@ -1,12 +1,12 @@
 .header {
   position: relative;
+  background-color: $primary;
+  border-top: solid 5px $primary;
 }
 
 .header-top {
-  background-color: #fdc800;
-
   &__inner {
-    width: 1200px;
+    width: 90vw;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 90vw;
     margin: 0 auto;
   }
 }
@@ -66,9 +66,10 @@
 }
 .nav {
   flex: 1;
+  display: flex;
+  align-items: center;
   &__inner {
     display: flex;
-    width: 500px;
     justify-content: end;
   }
   &__item {
@@ -83,4 +84,18 @@
   padding: 1rem;
   margin-left: 3rem;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .header-top {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: bo;
+  }
 }

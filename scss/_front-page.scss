@@ -1,18 +1,19 @@
 .main-visual {
-  // position: relative;
+  position: relative;
 }
 
 .hero {
   background-color: #f0f4f9;
   height: 550px;
   &__inner {
+    width: 90vw;
+    height: 40vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
+    flex-direction: column;
     margin: auto;
-    width: 1200px;
-  }
-  &__body {
-    margin: 30px;
+    flex-wrap: wrap;
+    padding-top: 3rem;
   }
   &__sub-title {
     display: block;
@@ -26,22 +27,23 @@
   }
   &__img {
     margin-bottom: 30px;
+    margin-top: 30px;
+    width: 30vw;
   }
 }
 
 .hero-banner {
-  position: relative;
   margin: auto;
-  width: 1200px;
+  width: 90vw;
+  position: absolute;
+  top: 600px;
+  right: 60px;
   &__inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    position: absolute;
-    top: -100px;
-    right: 50px;
-
     background-color: #002147;
+    flex-direction: row;
     border-radius: 12px;
   }
   &__img {
@@ -51,6 +53,9 @@
     font: bold 3rem Georgia;
     color: #ffffff;
     margin: 20px;
+  }
+  &__date-outer {
+    display: flex;
   }
   &__date {
     display: flex;
@@ -79,7 +84,7 @@
     display: flex;
     justify-content: space-around;
     margin: auto;
-    width: 1200px;
+    width: 90vw;
     margin-top: 30px;
     margin-bottom: 30px;
     flex-wrap: wrap;
@@ -87,36 +92,42 @@
 }
 
 .successful-feedback {
+  margin-top: 100px;
   margin-bottom: 50px;
   &__inner {
-    width: 1200px;
+    width: 90vw;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
-  &__img {
+  &__img-outer {
     flex: 1;
-    position: relative;
-    height: 450px;
   }
+  &__img {
+    position: relative;
+    height: 400px;
+    display: flex;
+    width: 600px;
+  }
+
   &__category-img {
     position: absolute;
     z-index: 1;
+    top: 0px;
+    left: 40px;
   }
   &__student-img {
-    width: 1005;
+    width: 500px;
     position: absolute;
-    right: 20px;
+    left: 20px;
     top: 20px;
   }
   &__name-container {
     position: absolute;
-    bottom: 0px;
-    left: 150px;
-    display: inline-block;
-    width: 300px;
-    height: 60px;
+    top: 300px;
+    left: 100px;
+    width: 250px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -184,7 +195,7 @@
 .service-data {
   background-color: #f0f4f9;
   &__inner {
-    width: 1200px;
+    width: 90vw;
     height: 450px;
     background-image: url(/img/illustration/world.svg);
     background-repeat: no-repeat;
@@ -215,17 +226,20 @@
 .newsletter {
   margin-top: 80px;
   &__inner {
-    width: 1200px;
+    width: 90vw;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 30px;
   }
   &__img {
     margin-right: 30px;
+    width: 30%;
   }
   &__content {
-    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
   }
   &__sub-ttl {
     font: bold 1.6rem inter;
@@ -255,5 +269,244 @@
     flex: 3;
     width: 120px;
     margin: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    &__inner {
+      height: 90vh;
+      display: flex;
+      align-items: center;
+    }
+    &__sub-title {
+      display: block;
+      font: bold 2.5rem normal;
+    }
+    &__title {
+      font: normal 3rem Georgia;
+    }
+    &__btn-group {
+      margin-top: 0px;
+      order: 1;
+    }
+    &__img {
+      margin-bottom: 30px;
+      width: 40vw;
+    }
+  }
+  .hero-banner {
+    position: relative;
+    top: -100px;
+    left: 0px;
+    &__inner {
+      width: 90vw;
+      display: flex;
+      flex-direction: column;
+      background-color: #002147;
+      border-radius: 12px;
+    }
+    &__img {
+      display: none;
+    }
+    &__title {
+      font: bold 2rem Georgia;
+      color: #ffffff;
+      margin-bottom: 0px;
+    }
+    &__date-outer {
+      display: flex;
+      flex-direction: row;
+    }
+    &__date {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+    &__date-num {
+      font: bold 4rem normal;
+    }
+    &__date-txt {
+      font: normal 1.4rem normal;
+    }
+  }
+
+  .article-lists {
+    margin-top: 0px;
+    &__h2 {
+      font-size: 3rem;
+    }
+  }
+
+  .successful-feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    &__img-outer {
+      position: relative;
+      flex: 1;
+    }
+    &__img {
+      width: 100%;
+      height: initial;
+      max-width: 350px;
+      object-fit: cover;
+      display: flex;
+    }
+    &__category-img {
+      position: absolute;
+      z-index: 1;
+      width: 25%;
+      top: -20px;
+      left: -20px;
+    }
+    &__student-img {
+      width: 100%;
+      position: initial;
+    }
+    &__name-container {
+      position: absolute;
+      top: 90%;
+      left: 20%;
+      width: 60%;
+      height: 50px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 6px;
+    }
+    &__content {
+      margin-top: 50px;
+      flex: initial;
+      width: 100%;
+      height: initial;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__h2 {
+      font: bold 2rem Georgia;
+    }
+  }
+  .card {
+    margin-top: 20px;
+    &__inner {
+      padding: 10px;
+      display: flex;
+      width: 100%;
+      align-items: center;
+      background-color: #f0f4f9;
+    }
+    &__img {
+      flex: 1;
+      width: 100px;
+    }
+
+    &__article {
+      flex: 4;
+      margin-left: 20px;
+    }
+    &__article-ttl {
+      font: bold 1.4rem inter;
+      color: #002147;
+    }
+
+    &__article-category {
+      font: normal 1rem inter;
+      color: #757575;
+    }
+  }
+  .service-data {
+    background-color: #f0f4f9;
+    &__inner {
+      width: 90vw;
+      height: 100%;
+      background-image: url(/img/illustration/world.svg);
+      background-repeat: no-repeat;
+      background-size: 60%;
+      background-position: center;
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &__item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    &__num {
+      font: bold 6rem Georgia;
+    }
+    &__label {
+      margin-top: 10px;
+      font: bold 1.2rem inter;
+      color: #00b2b2;
+    }
+  }
+
+  .newsletter {
+    margin-top: 80px;
+    &__inner {
+      width: 90vw;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+      flex-direction: column;
+    }
+    &__img {
+      margin-right: 30px;
+      width: 30%;
+    }
+    &__content {
+      display: initial;
+    }
+    &__sub-ttl {
+      font: bold 1.2rem inter;
+    }
+    &__ttl {
+      font: bold 2.2rem Georgia;
+    }
+  }
+
+  .newsletter-form {
+    margin-top: 30px;
+
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border: solid 1px #bdbdbd;
+      height: 40px;
+    }
+    &__label {
+      margin: 10px;
+    }
+    &__input {
+      height: 100%;
+      flex: initial;
+    }
+    &__submit {
+      width: 120px;
+    }
   }
 }
