@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/scss/this-thema.css" />
+    <link rel="stylesheet" href="http://mysite.local/wp-content/themes/WpPractice/scss/this-thema.css" />
     <link
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
       rel="stylesheet"
@@ -19,7 +19,7 @@
             <address class="address">
               <figure class="address__inner">
                 <img
-                  src="/img/icon/location.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/icon/location.svg"
                   alt="所在地"
                   class="address__img"
                 /><span class="address__txt"
@@ -28,7 +28,7 @@
               </figure>
               <figure class="address__inner">
                 <img
-                  src="img/icon/mail.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail.svg"
                   alt="メールアドレス"
                   class="address__img"
                 /><span class="address__txt">vctung@outlook.com</span>
@@ -36,22 +36,22 @@
             </address>
             <figure class="sns-items">
               <img
-                src="/img/icon/Facebook.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Facebook.svg"
                 alt="Facebook"
                 class="sns-items__img"
               />
               <img
-                src="/img/icon/Pinterest.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Pinterest.svg"
                 alt="Pinterest"
                 class="sns-items__img"
               />
               <img
-                src="/img/icon/Twitter.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Twitter.svg"
                 alt="Twitter"
                 class="sns-items__img"
               />
               <img
-                src="/img/icon/Instagram.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Instagram.svg"
                 alt="Instagram"
                 class="sns-items__img"
               />
@@ -61,7 +61,7 @@
         <section class="header-bottom">
           <div class="header-bottom__inner">
             <div class="logo">
-              <img src="/img/logo.svg" alt="FOR EDUCATION" class="logo__img" />
+              <img src="http://mysite.local/wp-content/themes/WpPractice/img/logo.svg" alt="FOR EDUCATION" class="logo__img" />
               <h1 class="logo__h1">FOR EDUCATION</h1>
             </div>
             <nav class="nav">
@@ -83,7 +83,7 @@
                 >Sign up</a
               >
               <div class="search">
-                <img src="/img/icon/search.svg" alt="サイト内検索" />
+                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/search.svg" alt="サイト内検索" />
               </div>
             </nav>
           </div>
@@ -103,7 +103,7 @@
             <a class="btn pt-1 pb-1 pr-2 pl-2 is-size-1_5">Read more</a>
           </div>
           <img
-            src="/img/illustration/MV.svg"
+            src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/MV.svg"
             alt="メインビジュアル"
             class="hero__img"
           />
@@ -112,7 +112,7 @@
       <section class="hero-banner">
         <div class="hero-banner__inner">
           <img
-            src="/img/illustration/campaign.svg"
+            src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/campaign.svg"
             alt="キャンペーン情報"
             class="hero-banner__img"
           />
@@ -153,12 +153,12 @@
             <div class="article-list__inner">
               <div class="article-list__img">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="article-list__post-img"
                 />
                 <img
-                  src="/img/categories/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
                   alt="category画像"
                   class="article-list__category-img"
                 />
@@ -177,12 +177,12 @@
             <div class="article-list__inner">
               <div class="article-list__img">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="article-list__post-img"
                 />
                 <img
-                  src="/img/categories/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
                   alt="category画像"
                   class="article-list__category-img"
                 />
@@ -201,12 +201,12 @@
             <div class="article-list__inner">
               <div class="article-list__img">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="article-list__post-img"
                 />
                 <img
-                  src="/img/categories/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
                   alt="category画像"
                   class="article-list__category-img"
                 />
@@ -225,12 +225,12 @@
             <div class="article-list__inner">
               <div class="article-list__img">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="article-list__post-img"
                 />
                 <img
-                  src="/img/categories/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
                   alt="category画像"
                   class="article-list__category-img"
                 />
@@ -249,12 +249,12 @@
             <div class="article-list__inner">
               <div class="article-list__img">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="article-list__post-img"
                 />
                 <img
-                  src="/img/categories/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
                   alt="category画像"
                   class="article-list__category-img"
                 />
@@ -273,12 +273,12 @@
             <div class="article-list__inner">
               <div class="article-list__img">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="article-list__post-img"
                 />
                 <img
-                  src="/img/categories/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
                   alt="category画像"
                   class="article-list__category-img"
                 />
@@ -301,12 +301,12 @@
           <div class="successful-feedback__img-outer">
             <div class="successful-feedback__img">
               <img
-                src="/img/student.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/student.svg"
                 alt="Successful Student Feedback"
                 class="successful-feedback__student-img"
               />
               <img
-                src="/img/illustration/successful.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/successful.svg"
                 alt="Successful Student Feedback"
                 class="successful-feedback__category-img"
               />
@@ -335,7 +335,7 @@
             <article class="card">
               <div class="card__inner">
                 <img
-                  src="/img/posts/sample.svg"
+                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
                   alt="post画像"
                   class="card__img"
                 />
@@ -357,7 +357,7 @@
         <div class="service-data__inner">
           <div class="service-data__item">
             <img
-              src="/img/illustration/serviceInfo01.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo01.svg"
               alt="courseData"
               class="service-data__img"
             />
@@ -366,7 +366,7 @@
           </div>
           <div class="service-data__item">
             <img
-              src="/img/illustration/serviceInfo02.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo02.svg"
               alt="courseData"
               class="service-data__img"
             />
@@ -375,7 +375,7 @@
           </div>
           <div class="service-data__item">
             <img
-              src="/img/illustration/serviceInfo03.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo03.svg"
               alt="courseData"
               class="service-data__ num"
             />
@@ -384,7 +384,7 @@
           </div>
           <div class="service-data__item">
             <img
-              src="/img/illustration/serviceInfo04.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo04.svg"
               alt="courseData"
               class="service-data__img"
             />
@@ -397,7 +397,7 @@
       <section class="newsletter">
         <div class="newsletter__inner">
           <img
-            src="/img/illustration/mail.svg"
+            src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/mail.svg"
             alt="メルマガ登録"
             class="newsletter__img"
           />
@@ -412,7 +412,7 @@
             <form action="" method="post" class="newsletter-form">
               <div class="newsletter-form__inner">
                 <label class="newsletter-form__label">
-                  <img src="/img/icon/mail.svg" alt="メールアイコン" />
+                  <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail.svg" alt="メールアイコン" />
                 </label>
                 <input
                   type="email"
@@ -448,7 +448,7 @@
           <div class="footer-address">
             <div class="footer-address__logo">
               <img
-                src="/img/logo-footer.svg"
+                src="http://mysite.local/wp-content/themes/WpPractice/img/logo-footer.svg"
                 alt="FOR EDUCATION"
                 class="footer-address__img"
               />
@@ -456,17 +456,17 @@
             </div>
             <address class="footer-address__info">
               <div class="footer-address__info-item">
-                <img src="/img/icon/location_footer.svg" alt="所在地" />
+                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/location_footer.svg" alt="所在地" />
                 <span class="footer-address__info-txt"
                   >1500 Treat Ave, Suite 200 San Francisco, CA 94110</span
                 >
               </div>
               <div class="footer-address__info-item">
-                <img src="/img/icon/mail_footer.svg" alt="メールアドレス" />
+                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail_footer.svg" alt="メールアドレス" />
                 <span class="footer-address__info-txt">vctung@outlook.com</span>
               </div>
               <div class="footer-address__info-item">
-                <img src="/img/icon/phone.svg" alt="電話番号" />
+                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/phone.svg" alt="電話番号" />
                 <span class="footer-address__info-txt"
                   >1-800-800-2299 (Support)</span
                 >
@@ -510,22 +510,22 @@
           <span class="copy-right__ttl">Copyright © 2021 Tung Chi Vo</span>
           <figure>
             <img
-              src="/img/icon/Facebook.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Facebook.svg"
               alt="Facebook"
               class="copy-right__img"
             />
             <img
-              src="/img/icon/Pinterest.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Pinterest.svg"
               alt="Pinterest"
               class="copy-right__img"
             />
             <img
-              src="/img/icon/Twitter.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Twitter.svg"
               alt="Twitter"
               class="copy-right__img"
             />
             <img
-              src="/img/icon/Instagram.svg"
+              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Instagram.svg"
               alt="Instagram"
               class="copy-right__img"
             />
