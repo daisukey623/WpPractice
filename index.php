@@ -1,428 +1,171 @@
 <!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="http://mysite.local/wp-content/themes/WpPractice/scss/this-thema.css" />
-    <link
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      rel="stylesheet"
-    />
-    <title>WpPractice</title>
-  </head>
-  <body>
-    <section class="main-visual">
-      <header class="header">
-        <section class="header-top">
-          <div class="header-top__inner">
-            <address class="address">
-              <figure class="address__inner">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/icon/location.svg"
-                  alt="所在地"
-                  class="address__img"
-                /><span class="address__txt"
-                  >1600 Amphitheatre Parkway, CA 94043</span
-                >
-              </figure>
-              <figure class="address__inner">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail.svg"
-                  alt="メールアドレス"
-                  class="address__img"
-                /><span class="address__txt">vctung@outlook.com</span>
-              </figure>
-            </address>
-            <figure class="sns-items">
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Facebook.svg"
-                alt="Facebook"
-                class="sns-items__img"
-              />
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Pinterest.svg"
-                alt="Pinterest"
-                class="sns-items__img"
-              />
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Twitter.svg"
-                alt="Twitter"
-                class="sns-items__img"
-              />
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Instagram.svg"
-                alt="Instagram"
-                class="sns-items__img"
-              />
-            </figure>
-          </div>
-        </section>
-        <section class="header-bottom">
-          <div class="header-bottom__inner">
-            <div class="logo">
-              <img src="http://mysite.local/wp-content/themes/WpPractice/img/logo.svg" alt="FOR EDUCATION" class="logo__img" />
-              <h1 class="logo__h1">FOR EDUCATION</h1>
-            </div>
-            <nav class="nav">
-              <ul class="nav__inner">
-                <li class="nav__item">
-                  <a href=""><span class="nav-items__link">Home</span></a>
-                </li>
-                <li class="nav__item">
-                  <a href=""><span>About</span></a>
-                </li>
-                <li class="nav__item">
-                  <a href=""><span>Courses</span></a>
-                </li>
-                <li class="nav__item">
-                  <a href=""><span>Contact</span></a>
-                </li>
-              </ul>
-              <a class="btn is-primary pt-1 pb-1 pr-2 pl-2 is-size-1_5"
-                >Sign up</a
-              >
-              <div class="search">
-                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/search.svg" alt="サイト内検索" />
-              </div>
-            </nav>
-          </div>
-        </section>
-      </header>
-      <section class="hero">
-        <div class="hero__inner">
-          <span class="hero__sub-title">Become Master</span>
-          <span class="hero__title"
-            >Learn New Skills Online<br />
-            Find Best Courses</span
-          >
-          <div class="hero__btn-group">
-            <a class="btn is-primary mr-3 pt-1 pb-1 pr-2 pl-2 is-size-1_5"
-              >Get A Quote</a
-            >
-            <a class="btn pt-1 pb-1 pr-2 pl-2 is-size-1_5">Read more</a>
-          </div>
-          <img
-            src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/MV.svg"
-            alt="メインビジュアル"
-            class="hero__img"
-          />
+<html <?php language_attributes(); ?>>
+
+<head>
+  <?php get_header(); ?>
+</head>
+
+<body <?php body_class(); ?>>
+  <section class="main-visual">
+    <header class="header">
+      <?php get_template_part('/includes/header'); ?>
+    </header>
+
+    <section class="hero">
+      <div class="hero__inner">
+        <span class="hero__sub-title">Become Master</span>
+        <span class="hero__title">Learn New Skills Online<br />
+          Find Best Courses</span>
+        <div class="hero__btn-group">
+          <a class="btn is-primary mr-3 pt-1 pb-1 pr-2 pl-2 is-size-1_5">Get A Quote</a>
+          <a class="btn pt-1 pb-1 pr-2 pl-2 is-size-1_5">Read more</a>
         </div>
-      </section>
-      <section class="hero-banner">
-        <div class="hero-banner__inner">
-          <img
-            src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/campaign.svg"
-            alt="キャンペーン情報"
-            class="hero-banner__img"
-          />
-          <span class="hero-banner__title"
-            >Upcoming Our
-            <span class="has-text-primary"
-              >Basic in <br />
-              Python</span
-            >
-            Course!</span
-          >
-          <div class="hero-banner__date-outer">
-            <div class="hero-banner__date">
-              <span class="hero-banner__date-num">11</span>
-              <span class="hero-banner__date-txt">Days</span>
-            </div>
-            <div class="hero-banner__date">
-              <span class="hero-banner__date-num">11</span>
-              <span class="hero-banner__date-txt">Days</span>
-            </div>
-            <div class="hero-banner__date">
-              <span class="hero-banner__date-num">11</span>
-              <span class="hero-banner__date-txt">Days</span>
-            </div>
-            <div class="hero-banner__date">
-              <span class="hero-banner__date-num">11</span>
-              <span class="hero-banner__date-txt">Days</span>
-            </div>
-          </div>
-        </div>
-      </section>
+        <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/MV.svg" alt="メインビジュアル" class="hero__img" />
+      </div>
     </section>
-    <main>
-      <section class="article-lists">
-        <h2 class="article-lists__h2">Top Featured Courses</h2>
-        <div class="article-lists__inner">
-          <article class="article-list">
-            <div class="article-list__inner">
-              <div class="article-list__img">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="article-list__post-img"
-                />
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
-                  alt="category画像"
-                  class="article-list__category-img"
-                />
-              </div>
-              <div class="article-list__content">
-                <h3 class="article-list__h3">
-                  User Research for User Experience Design
-                </h3>
-                <span class="article-list__category-name"
-                  >The Museum of Modern Art</span
-                >
-              </div>
-            </div>
-          </article>
-          <article class="article-list">
-            <div class="article-list__inner">
-              <div class="article-list__img">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="article-list__post-img"
-                />
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
-                  alt="category画像"
-                  class="article-list__category-img"
-                />
-              </div>
-              <div class="article-list__content">
-                <h3 class="article-list__h3">
-                  User Research for User Experience Design
-                </h3>
-                <span class="article-list__category-name"
-                  >The Museum of Modern Art</span
-                >
-              </div>
-            </div>
-          </article>
-          <article class="article-list">
-            <div class="article-list__inner">
-              <div class="article-list__img">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="article-list__post-img"
-                />
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
-                  alt="category画像"
-                  class="article-list__category-img"
-                />
-              </div>
-              <div class="article-list__content">
-                <h3 class="article-list__h3">
-                  User Research for User Experience Design
-                </h3>
-                <span class="article-list__category-name"
-                  >The Museum of Modern Art</span
-                >
-              </div>
-            </div>
-          </article>
-          <article class="article-list">
-            <div class="article-list__inner">
-              <div class="article-list__img">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="article-list__post-img"
-                />
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
-                  alt="category画像"
-                  class="article-list__category-img"
-                />
-              </div>
-              <div class="article-list__content">
-                <h3 class="article-list__h3">
-                  User Research for User Experience Design
-                </h3>
-                <span class="article-list__category-name"
-                  >The Museum of Modern Art</span
-                >
-              </div>
-            </div>
-          </article>
-          <article class="article-list">
-            <div class="article-list__inner">
-              <div class="article-list__img">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="article-list__post-img"
-                />
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
-                  alt="category画像"
-                  class="article-list__category-img"
-                />
-              </div>
-              <div class="article-list__content">
-                <h3 class="article-list__h3">
-                  User Research for User Experience Design
-                </h3>
-                <span class="article-list__category-name"
-                  >The Museum of Modern Art</span
-                >
-              </div>
-            </div>
-          </article>
-          <article class="article-list">
-            <div class="article-list__inner">
-              <div class="article-list__img">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="article-list__post-img"
-                />
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg"
-                  alt="category画像"
-                  class="article-list__category-img"
-                />
-              </div>
-              <div class="article-list__content">
-                <h3 class="article-list__h3">
-                  User Research for User Experience Design
-                </h3>
-                <span class="article-list__category-name"
-                  >The Museum of Modern Art</span
-                >
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="successful-feedback">
-        <div class="successful-feedback__inner">
-          <div class="successful-feedback__img-outer">
-            <div class="successful-feedback__img">
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/student.svg"
-                alt="Successful Student Feedback"
-                class="successful-feedback__student-img"
-              />
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/successful.svg"
-                alt="Successful Student Feedback"
-                class="successful-feedback__category-img"
-              />
-              <div class="successful-feedback__name-container">
-                <span class="successful-feedback__name">Kimmie Vo</span>
-                <span class="successful-feedback__skill">Junior Designer</span>
-              </div>
-            </div>
+    <section class="hero-banner">
+      <div class="hero-banner__inner">
+        <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/campaign.svg" alt="キャンペーン情報" class="hero-banner__img" />
+        <span class="hero-banner__title">Upcoming Our
+          <span class="has-text-primary">Basic in <br />
+            Python</span>
+          Course!</span>
+        <div class="hero-banner__date-outer">
+          <div class="hero-banner__date">
+            <span class="hero-banner__date-num">11</span>
+            <span class="hero-banner__date-txt">Days</span>
           </div>
-
-          <div class="successful-feedback__content">
-            <h2 class="successful-feedback__h2">
-              Successful Student <span class="has-text-primary">Feedback</span>
-            </h2>
-            <p class="successful-feedback__desc">
-              Take courses from the world’s best instructors and universities.
-              Courses include recorded auto-graded and peer-reviewed
-              assignments, video lectures, and community discussion forums. When
-              you complete a course, you’ll be eligible to receive a shareable
-              electronic Course Certificate for a small fee.
-            </p>
-            <span class="successful-feedback__info"
-              >The courses that Kimmie has taken</span
-            >
-
-            <article class="card">
-              <div class="card__inner">
-                <img
-                  src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg"
-                  alt="post画像"
-                  class="card__img"
-                />
-                <div class="card__article">
-                  <h3 class="card__article-ttl">
-                    Modern and Contemporary Art and Design
-                  </h3>
-                  <span class="card__article-category"
-                    >The Museum of Modern Art</span
-                  >
+          <div class="hero-banner__date">
+            <span class="hero-banner__date-num">11</span>
+            <span class="hero-banner__date-txt">Days</span>
+          </div>
+          <div class="hero-banner__date">
+            <span class="hero-banner__date-num">11</span>
+            <span class="hero-banner__date-txt">Days</span>
+          </div>
+          <div class="hero-banner__date">
+            <span class="hero-banner__date-num">11</span>
+            <span class="hero-banner__date-txt">Days</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <main>
+    <section class="article-lists">
+      <h2 class="article-lists__h2">Top Featured Courses</h2>
+      <div class="article-lists__inner">
+        <?php query_posts('posts_per_page=5'); ?>
+        <?php if (have_posts()) : ?>
+          <?php while (have_posts()) : the_post(); ?>
+            <article class="article-list">
+              <a href="<?php the_permalink(); ?>">
+                <div class="article-list__inner">
+                  <div class="article-list__img">
+                    <img src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg" alt="post画像" class="article-list__post-img" />
+                    <img src="http://mysite.local/wp-content/themes/WpPractice/img/categories/sample.svg" alt="category画像" class="article-list__category-img" />
+                  </div>
+                  <div class="article-list__content">
+                    <h3 class="article-list__h3">
+                      <?php the_title(); ?>
+                    </h3>
+                    <span class="article-list__category-name">
+                      <?php
+                      $category = get_the_category();
+                      echo $category[0]->cat_name;
+                      ?>
+                    </span>
+                  </div>
                 </div>
-              </div>
+              </a>
             </article>
+          <?php endwhile; ?>
+        <?php else : ?>
+          <p>記事が見つかりませんでした</p>
+      </div>
+    <?php endif; ?>
+    </section>
+
+    <section class="successful-feedback">
+      <div class="successful-feedback__inner">
+        <div class="successful-feedback__img-outer">
+          <div class="successful-feedback__img">
+            <img src="http://mysite.local/wp-content/themes/WpPractice/img/student.svg" alt="Successful Student Feedback" class="successful-feedback__student-img" />
+            <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/successful.svg" alt="Successful Student Feedback" class="successful-feedback__category-img" />
+            <div class="successful-feedback__name-container">
+              <span class="successful-feedback__name">Kimmie Vo</span>
+              <span class="successful-feedback__skill">Junior Designer</span>
+            </div>
           </div>
         </div>
-      </section>
 
-      <section class="service-data">
-        <div class="service-data__inner">
-          <div class="service-data__item">
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo01.svg"
-              alt="courseData"
-              class="service-data__img"
-            />
-            <span class="service-data__num">768</span>
-            <span class="service-data__label">COURSES PUBLISHED</span>
-          </div>
-          <div class="service-data__item">
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo02.svg"
-              alt="courseData"
-              class="service-data__img"
-            />
-            <span class="service-data__num">768</span>
-            <span class="service-data__label">COURSES PUBLISHED</span>
-          </div>
-          <div class="service-data__item">
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo03.svg"
-              alt="courseData"
-              class="service-data__ num"
-            />
-            <span class="service-data__num">768</span>
-            <span class="service-data__label">COURSES PUBLISHED</span>
-          </div>
-          <div class="service-data__item">
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo04.svg"
-              alt="courseData"
-              class="service-data__img"
-            />
-            <span class="service-data__num">768</span>
-            <span class="service-data__label">COURSES PUBLISHED</span>
-          </div>
+        <div class="successful-feedback__content">
+          <h2 class="successful-feedback__h2">
+            Successful Student <span class="has-text-primary">Feedback</span>
+          </h2>
+          <p class="successful-feedback__desc">
+            Take courses from the world’s best instructors and universities.
+            Courses include recorded auto-graded and peer-reviewed
+            assignments, video lectures, and community discussion forums. When
+            you complete a course, you’ll be eligible to receive a shareable
+            electronic Course Certificate for a small fee.
+          </p>
+          <span class="successful-feedback__info">The courses that Kimmie has taken</span>
+
+          <article class="card">
+            <div class="card__inner">
+              <img src="http://mysite.local/wp-content/themes/WpPractice/img/posts/sample.svg" alt="post画像" class="card__img" />
+              <div class="card__article">
+                <h3 class="card__article-ttl">
+                  Modern and Contemporary Art and Design
+                </h3>
+                <span class="card__article-category">The Museum of Modern Art</span>
+              </div>
+            </div>
+          </article>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="newsletter">
-        <div class="newsletter__inner">
-          <img
-            src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/mail.svg"
-            alt="メルマガ登録"
-            class="newsletter__img"
-          />
-          <div class="newsletter__content">
-            <span class="newsletter__sub-ttl has-text-primary"
-              >Subscrible now</span
-            ><br />
-            <span class="newsletter__ttl"
-              >Get every single <br />update you will get</span
-            >
+    <section class="service-data">
+      <div class="service-data__inner">
+        <div class="service-data__item">
+          <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo01.svg" alt="courseData" class="service-data__img" />
+          <span class="service-data__num">768</span>
+          <span class="service-data__label">COURSES PUBLISHED</span>
+        </div>
+        <div class="service-data__item">
+          <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo02.svg" alt="courseData" class="service-data__img" />
+          <span class="service-data__num">768</span>
+          <span class="service-data__label">COURSES PUBLISHED</span>
+        </div>
+        <div class="service-data__item">
+          <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo03.svg" alt="courseData" class="service-data__ num" />
+          <span class="service-data__num">768</span>
+          <span class="service-data__label">COURSES PUBLISHED</span>
+        </div>
+        <div class="service-data__item">
+          <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/serviceInfo04.svg" alt="courseData" class="service-data__img" />
+          <span class="service-data__num">768</span>
+          <span class="service-data__label">COURSES PUBLISHED</span>
+        </div>
+      </div>
+    </section>
 
-            <form action="" method="post" class="newsletter-form">
-              <div class="newsletter-form__inner">
-                <label class="newsletter-form__label">
-                  <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail.svg" alt="メールアイコン" />
-                </label>
-                <input
-                  type="email"
-                  name="mail"
-                  placeholder="Enter email address"
-                  class="newsletter-form__input"
-                />
-                <button
-                  type="submit"
-                  class="
+    <section class="newsletter">
+      <div class="newsletter__inner">
+        <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/mail.svg" alt="メルマガ登録" class="newsletter__img" />
+        <div class="newsletter__content">
+          <span class="newsletter__sub-ttl has-text-primary">Subscrible now</span><br />
+          <span class="newsletter__ttl">Get every single <br />update you will get</span>
+
+          <form action="" method="post" class="newsletter-form">
+            <div class="newsletter-form__inner">
+              <label class="newsletter-form__label">
+                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail.svg" alt="メールアイコン" />
+              </label>
+              <input type="email" name="mail" placeholder="Enter email address" class="newsletter-form__input" />
+              <button type="submit" class="
                     newsletter-form__submit
                     btn
                     is-primary
@@ -431,107 +174,20 @@
                     pr-2
                     pl-2
                     is-size-0_8
-                  "
-                >
-                  Subscrible now
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer__inner">
-        <div class="footer-container">
-          <div class="footer-address">
-            <div class="footer-address__logo">
-              <img
-                src="http://mysite.local/wp-content/themes/WpPractice/img/logo-footer.svg"
-                alt="FOR EDUCATION"
-                class="footer-address__img"
-              />
-              <span class="footer-address__ttl">FOR EDUCATION</span>
+                  ">
+                Subscrible now
+              </button>
             </div>
-            <address class="footer-address__info">
-              <div class="footer-address__info-item">
-                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/location_footer.svg" alt="所在地" />
-                <span class="footer-address__info-txt"
-                  >1500 Treat Ave, Suite 200 San Francisco, CA 94110</span
-                >
-              </div>
-              <div class="footer-address__info-item">
-                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/mail_footer.svg" alt="メールアドレス" />
-                <span class="footer-address__info-txt">vctung@outlook.com</span>
-              </div>
-              <div class="footer-address__info-item">
-                <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/phone.svg" alt="電話番号" />
-                <span class="footer-address__info-txt"
-                  >1-800-800-2299 (Support)</span
-                >
-              </div>
-            </address>
-          </div>
-          <nav class="footer-nav">
-            <div class="fotter-nav-item">
-              <span class="fotter-nav-item__ttl">Community</span>
-              <ul>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-              </ul>
-            </div>
-            <div class="fotter-nav-item">
-              <span class="fotter-nav-item__ttl">Community</span>
-              <ul>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-              </ul>
-            </div>
-            <div class="fotter-nav-item">
-              <span class="fotter-nav-item__ttl">Community</span>
-              <ul>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-                <li class="fotter-nav-item__list"><a href="">item</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-        <div class="copy-right">
-          <span class="copy-right__ttl">Copyright © 2021 Tung Chi Vo</span>
-          <figure>
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Facebook.svg"
-              alt="Facebook"
-              class="copy-right__img"
-            />
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Pinterest.svg"
-              alt="Pinterest"
-              class="copy-right__img"
-            />
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Twitter.svg"
-              alt="Twitter"
-              class="copy-right__img"
-            />
-            <img
-              src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Instagram.svg"
-              alt="Instagram"
-              class="copy-right__img"
-            />
-          </figure>
+          </form>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <?Php get_template_part('includes/footer'); ?>
+    <?php get_footer(); ?>
+  </footer>
+</body>
+
 </html>
