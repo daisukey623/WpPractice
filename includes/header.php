@@ -22,20 +22,21 @@
       <img src="http://mysite.local/wp-content/themes/WpPractice/img/logo.svg" alt="FOR EDUCATION" class="logo__img" />
       <h1 class="logo__h1">FOR EDUCATION</h1>
     </div>
+
+    <!-- メニューIDを取得する -->
     <nav class="nav">
       <ul class="nav__inner">
-        <li class="nav__item">
-          <a href=""><span class="nav-items__link">Home</span></a>
-        </li>
-        <li class="nav__item">
-          <a href=""><span>About</span></a>
-        </li>
-        <li class="nav__item">
-          <a href=""><span>Courses</span></a>
-        </li>
-        <li class="nav__item">
-          <a href=""><span>Contact</span></a>
-        </li>
+        <?php
+        $menu_name = 'gloval_nav';
+        $locations = get_nav_menu_locations();
+        $menu = wp_get_nav_menu_object($locations[$menu_name]);
+        $menu_items = wp_get_nav_menu_items($menu->term_id);
+        ?>
+        <?php foreach ($menu_items as $item) : ?>
+          <li class="nav__item">
+            <a href="<?php echo $item->url; ?>"><span class="nav-items__link"><?php echo $item->title; ?></span></a>
+          </li>
+        <?php endforeach; ?>
       </ul>
       <a class="btn is-primary pt-1 pb-1 pr-2 pl-2 is-size-1_5">Sign up</a>
       <div class="search">
