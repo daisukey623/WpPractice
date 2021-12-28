@@ -7,6 +7,7 @@
 .header-top {
   &__inner {
     width: 90vw;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -46,9 +47,10 @@
   vertical-align: middle;
   &__inner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 90vw;
+    max-width: 1200px;
     margin: 0 auto;
   }
 }
@@ -68,9 +70,9 @@
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: end;
   &__inner {
     display: flex;
-    justify-content: end;
   }
   &__item {
     margin-right: 4rem;

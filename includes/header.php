@@ -18,10 +18,10 @@
 </section>
 <section class="header-bottom">
   <div class="header-bottom__inner">
-    <div class="logo">
+    <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
       <img src="http://mysite.local/wp-content/themes/WpPractice/img/logo.svg" alt="FOR EDUCATION" class="logo__img" />
-      <h1 class="logo__h1">FOR EDUCATION</h1>
-    </div>
+      <h1 class="logo__h1"><?php bloginfo('name'); ?></h1>
+    </a>
 
     <!-- メニューIDを取得する -->
     <nav class="nav">
@@ -34,7 +34,7 @@
         ?>
         <?php foreach ($menu_items as $item) : ?>
           <li class="nav__item">
-            <a href="<?php echo $item->url; ?>"><span class="nav-items__link"><?php echo $item->title; ?></span></a>
+            <a href="<?php echo esc_attr($item->url); ?>"><span class="nav-items__link"><?php echo esc_html($item->title); ?></span></a>
           </li>
         <?php endforeach; ?>
       </ul>
