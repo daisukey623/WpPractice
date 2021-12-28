@@ -466,11 +466,12 @@ th {
 
 .hero {
   background-color: #f0f4f9;
-  height: 550px;
+  height: 350px;
 }
 
 .hero__inner {
   width: 90vw;
+  max-width: 1200px;
   height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -504,15 +505,15 @@ th {
 .hero__img {
   margin-bottom: 30px;
   margin-top: 30px;
-  width: 30vw;
+  max-width: 30%;
 }
 
 .hero-banner {
   margin: auto;
-  width: 90vw;
-  position: absolute;
   top: 600px;
   right: 60px;
+  max-width: 1200px;
+  width: 90vw;
 }
 
 .hero-banner__inner {
@@ -572,8 +573,12 @@ th {
   color: #ffffff;
 }
 
+main {
+  max-width: 1200px;
+}
+
 .article-lists {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
 .article-lists__h2 {
@@ -589,6 +594,7 @@ th {
       justify-content: space-around;
   margin: auto;
   width: 90vw;
+  max-width: 1200px;
   margin-top: 30px;
   margin-bottom: 30px;
   -ms-flex-wrap: wrap;
@@ -601,6 +607,7 @@ th {
 }
 
 .successful-feedback__inner {
+  max-width: 1200px;
   width: 90vw;
   margin: auto;
   display: -webkit-box;
@@ -750,6 +757,7 @@ th {
 }
 
 .service-data__inner {
+  max-width: 1200px;
   width: 90vw;
   height: 450px;
   background-image: url(/img/illustration/world.svg);
@@ -800,6 +808,7 @@ th {
 
 .newsletter__inner {
   width: 90vw;
+  max-width: 1200px;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -815,7 +824,7 @@ th {
 
 .newsletter__img {
   margin-right: 30px;
-  width: 30%;
+  max-width: 30%;
 }
 
 .newsletter__content {
@@ -841,6 +850,7 @@ th {
 }
 
 .newsletter-form__inner {
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -902,11 +912,12 @@ th {
   }
   .hero-banner {
     position: relative;
-    top: -100px;
+    top: 10px;
     left: 0px;
   }
   .hero-banner__inner {
     width: 90vw;
+    padding: 5px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -951,13 +962,13 @@ th {
     margin: 20px;
   }
   .hero-banner__date-num {
-    font: bold 4rem normal;
+    font: bold 3rem normal;
   }
   .hero-banner__date-txt {
     font: normal 1.4rem normal;
   }
   .article-lists {
-    margin-top: 0px;
+    margin-top: 50px;
   }
   .article-lists__h2 {
     font-size: 3rem;
@@ -1201,6 +1212,11 @@ th {
   }
 }
 
+html {
+  max-width: 1200px;
+  margin: auto;
+}
+
 .btn {
   display: inline-block;
   vertical-align: middle;
@@ -1284,6 +1300,7 @@ th {
 
 .header-top__inner {
   width: 90vw;
+  max-width: 1200px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1344,13 +1361,14 @@ th {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   width: 90vw;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1385,15 +1403,15 @@ th {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
 .nav__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
 }
 
 .nav__item {
@@ -1672,5 +1690,10 @@ th {
   .copy-right__img {
     margin-left: 10px;
   }
+}
+
+html {
+  max-width: 1200px;
+  margin: auto;
 }
 /*# sourceMappingURL=this-thema.css.map */
