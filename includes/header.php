@@ -9,6 +9,7 @@
       </figure>
     </address>
     <figure class="sns-items">
+      
       <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Facebook.svg" alt="Facebook" class="sns-items__img" />
       <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Pinterest.svg" alt="Pinterest" class="sns-items__img" />
       <img src="http://mysite.local/wp-content/themes/WpPractice/img/icon/Twitter.svg" alt="Twitter" class="sns-items__img" />

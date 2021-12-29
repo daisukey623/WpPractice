@@ -1,0 +1,52 @@
+h1 {
+  font: bold 4.8rem Georgias;
+  color: #002147;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font: bold 3.6rem Georgias;
+  color: #002147;
+}
+p {
+  font-size: 1.6rem;
+  color: #212529;
+  margin: 10px;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 1200px;
+}
+
+.single-header {
+  background-color: #f0f4f9;
+  &__inner {
+    max-width: 1200px;
+    width: 90vw;
+    margin: auto;
+  }
+}
+
+.single-category {
+  font: bold 1.2rem inter;
+  margin: 20px 10px;
+}
+
+.single-main {
+  max-width: 1200px;
+  width: 90vw;
+  margin: auto;
+}
+
+.single-successful-feedback {
+  background-color: #f0f4f9;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  img {
+    max-width: 90vw;
+  }
+}

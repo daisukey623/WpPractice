@@ -13,7 +13,7 @@
     <?php while (have_posts()) : the_post(); ?>
       <h1><?php the_title(); ?></h1>
       <?php $img = get_eyecatch(); ?>
-      <img src="<?php echo $img[0]; ?>" alt="">
+      <img src="<?php echo $img[0]; ?>" alt="" >
       <?php the_content(); ?>
     <?php endwhile; ?>
   <?php endif; ?>
