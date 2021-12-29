@@ -1261,6 +1261,11 @@ img {
   padding-bottom: 20px;
 }
 
+.pagenation {
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   img {
     max-width: 90vw;
