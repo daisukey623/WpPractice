@@ -11,17 +11,16 @@
       <?php get_template_part('/includes/header'); ?>
     </header>
     <?php if (is_category()) : ?>
-      <h1>カテゴリー</h1>
+      <h1><?php wp_title(''); ?></h1>
     <?php else : ?>
       <h1>タグ</h1>
     <?php endif; ?>
-    <span><?php wp_title(''); ?></span>
   </section>
   <main>
+
     <section class="article-lists">
-      <h2 class="article-lists__h2">Top Featured Courses</h2>
       <div class="article-lists__inner">
-        <?php query_posts('posts_per_page=5'); ?>
+
         <?php if (have_posts()) : ?>
           <?php while (have_posts()) : the_post(); ?>
             <article class="article-list">
@@ -51,9 +50,12 @@
       </div>
     <?php endif; ?>
     </section>
-
-    <?php $link = get_next_posts_link('古い記事へ');
-    echo $link; ?>
+    <div class="pagenation">
+      <?php $link = get_previous_posts_link('新しい記事へ &rarr;');
+      echo $link; ?>
+      <?php $link = get_next_posts_link('&larr; 古い記事へ');
+      echo $link; ?>
+    </div>
 
   </main>
 
