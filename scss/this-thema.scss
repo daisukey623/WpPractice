@@ -1,14 +1,12 @@
-@import  "foundation/_reset.scss";
-@import  "foundation/_variable.scss";
-@import  "helpers/_spacing.scss";
-@import  "helpers/_color.scss";
-@import  "helpers/_typography.scss";
-@import  "_front-page.scss";
-@import  "_global.scss";
-@import  "component/btn.scss";
-@import  "component/article-list.scss";
-@import  "layout/_header.scss";
-@import  "layout/_footer.scss";
-@import  "_global.scss";
-
-
+@import 'foundation/_reset.scss';
+@import 'foundation/_variable.scss';
+@import 'helpers/_spacing.scss';
+@import 'helpers/_color.scss';
+@import 'helpers/_typography.scss';
+@import '_front-page.scss';
+@import '_single.scss';
+@import '_global.scss';
+@import 'component/btn.scss';
+@import 'component/article-list.scss';
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
