@@ -6,15 +6,14 @@
   background-color: #f0f4f9;
   height: 350px;
   &__inner {
-    width: 90vw;
-    max-width: 1200px;
     height: 40vh;
     display: flex;
-    justify-content: start;
-    flex-direction: column;
-    margin: auto;
-    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 3rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
   }
   &__sub-title {
     display: block;
@@ -26,10 +25,13 @@
   &__btn-group {
     margin-top: 30px;
   }
+  &__img-outer {
+    margin-left: 50px;
+  }
   &__img {
     margin-bottom: 30px;
     margin-top: 30px;
-    max-width: 30%;
+    max-width: 70%;
   }
 }
 
@@ -234,9 +236,6 @@ main {
 .newsletter {
   margin-top: 80px;
   &__inner {
-    width: 90vw;
-    max-width: 1200px;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;

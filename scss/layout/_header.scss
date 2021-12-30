@@ -1,10 +1,11 @@
 .header {
   position: relative;
-  background-color: $primary;
   border-top: solid 5px $primary;
 }
 
 .header-top {
+  background-color: $primary;
+
   &__inner {
     width: 90vw;
     max-width: 1200px;

@@ -13,14 +13,19 @@
 
     <section class="hero">
       <div class="hero__inner">
-        <span class="hero__sub-title">Become Master</span>
-        <span class="hero__title">Learn New Skills Online<br />
-          Find Best Courses</span>
-        <div class="hero__btn-group">
-          <a class="btn is-primary mr-3 pt-1 pb-1 pr-2 pl-2 is-size-1_5">Get A Quote</a>
-          <a class="btn pt-1 pb-1 pr-2 pl-2 is-size-1_5">Read more</a>
+        <div class="hero__content">
+          <span class="hero__sub-title">Become Master</span>
+          <span class="hero__title">Learn New Skills Online<br />
+            Find Best Courses
+          </span>
+          <div class="hero__btn-group">
+            <a class="btn is-primary mr-3 pt-1 pb-1 pr-2 pl-2 is-size-1_5">Get A Quote</a>
+            <a class="btn pt-1 pb-1 pr-2 pl-2 is-size-1_5">Read more</a>
+          </div>
         </div>
-        <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/MV.svg" alt="メインビジュアル" class="hero__img" />
+        <div class="hero__img-outer">
+          <img src="http://mysite.local/wp-content/themes/WpPractice/img/illustration/MV.svg" alt="メインビジュアル" class="hero__img" />
+        </div>
       </div>
     </section>
     <section class="hero-banner">
