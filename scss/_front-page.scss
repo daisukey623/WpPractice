@@ -4,29 +4,42 @@
 
 .hero {
   background-color: #f0f4f9;
-  height: 350px;
+  display: flex;
+  justify-content: center;
   &__inner {
-    height: 40vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 3rem;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 0;
+    max-width: 1200px;
   }
   &__content {
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
+    order: 1;
   }
   &__sub-title {
     display: block;
     font: bold 3rem normal;
   }
   &__title {
-    font: normal 6rem Georgia;
+    font: normal 5rem Georgia;
   }
   &__btn-group {
     margin-top: 30px;
+    margin-left: 100px;
+    order: 3;
   }
   &__img-outer {
     margin-left: 50px;
+    order: 2;
+    display: flex;
+    justify-content: center;
   }
   &__img {
     margin-bottom: 30px;
@@ -284,30 +297,45 @@ main {
 @media (max-width: 600px) {
   .hero {
     &__inner {
-      height: 90vh;
       display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 30px;
+      margin-bottom: 10px;
+    }
+    &__content {
+      display: flex;
+      margin: 10px 0px;
+      min-width: 100vw;
       align-items: center;
     }
     &__sub-title {
       display: block;
-      font: bold 2.5rem normal;
+      font: bold 3rem normal;
     }
     &__title {
-      font: normal 3rem Georgia;
+      font: normal 2.5rem Georgia;
     }
     &__btn-group {
-      margin-top: 0px;
-      order: 1;
+      margin: 0px;
     }
-    &__img {
-      margin-bottom: 30px;
-      width: 40vw;
+    &__img-outer {
+      margin: 0px;
+      min-width: 100vw;
+
+      &__img {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        max-width: 50%
+      }
     }
   }
   .hero-banner {
     position: relative;
     top: 10px;
     left: 0px;
+
     &__inner {
       width: 90vw;
       padding: 5px;
