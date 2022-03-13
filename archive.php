@@ -56,7 +56,6 @@
       <?php $link = get_next_posts_link('&larr; 古い記事へ');
       echo $link; ?>
     </div>
-
   </main>
 
   <footer class="footer">

@@ -28,9 +28,10 @@
             <img src="<?php echo $img[0]; ?>" alt="">
           </figure>
           <?php the_content(); ?>
+        <?php endwhile; ?>
+        <div>
+          <?php get_template_part('includes/sns'); ?>
         </div>
-
-      <?php endwhile; ?>
       </article>
       <section class="successful-feedback
        single-successful-feedback">
@@ -104,7 +105,6 @@
           </div>
         </div>
       </section>
-
     <?php endif; ?>
     <footer class="footer">
       <?php get_template_part('includes/footer'); ?>
